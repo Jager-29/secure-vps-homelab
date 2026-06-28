@@ -1,0 +1,27 @@
+services:
+  crowdsec:
+    image: crowdsecurity/crowdsec:latest
+    container_name: crowdsec
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:8080:8080"
+    environment:
+      COLLECTIONS: "crowdsecurity/nginx crowdsecurity/http-cve crowdsecurity/base-http-scenarios crowdsecurity/linux"
+      GID: "1000"
+    volumes:
+      - npm_npm_data:/logs/npm:ro
+      - crowdsec_config:/etc/crowdsec
+      - crowdsec_data:/var/lib/crowdsec/data
+      - /opt/crowdsec/acquis.yaml:/etc/crowdsec/acquis.d/npm.yaml:ro
+    networks:
+      - proxy
+
+networks:
+  proxy:
+    external: true
+
+volumes:
+  npm_npm_data:
+    external: true
+  crowdsec_config:
+  crowdsec_data:

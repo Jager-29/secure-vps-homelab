@@ -1,0 +1,5 @@
+filenames:
+  - /logs/npm/logs/*.log
+labels:
+  type: nginx
+poll_without_inotify: true
