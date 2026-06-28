@@ -1,0 +1,31 @@
+services:
+  fake-wordpress:
+    image: wordpress:latest
+    container_name: fake-wordpress
+    restart: unless-stopped
+    networks:
+      - honeypot_net
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    cap_add:
+      - CHOWN
+      - SETGID
+      - SETUID
+
+  fake-adminer:
+    image: adminer:latest
+    container_name: fake-adminer
+    restart: unless-stopped
+    networks:
+      - honeypot_net
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+
+networks:
+  honeypot_net:
+    name: honeypot_net
+    internal: true
