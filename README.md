@@ -1,5 +1,12 @@
 # Secure VPS Homelab
  
+[![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+![Debian](https://img.shields.io/badge/Debian-13-A81D33?logo=debian&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+![CrowdSec](https://img.shields.io/badge/IPS-CrowdSec-orange)
+![Wazuh](https://img.shields.io/badge/SIEM-Wazuh-00A8E8)
+![Tailscale](https://img.shields.io/badge/VPN-Tailscale-1D1D1D?logo=tailscale&logoColor=white)
+ 
 A reproducible, security-focused homelab running on a single public VPS. This
 documents a working setup built on Debian 13, using Docker for services, a
 reverse proxy with wildcard HTTPS, an intrusion prevention system, a SIEM/XDR
