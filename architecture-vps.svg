@@ -1,0 +1,192 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-24 0 1344 1010" font-family="ui-sans-serif,system-ui,Segoe UI,Roboto,sans-serif">
+<defs>
+<marker id="aGray" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0 1 L9 5 L0 9 z" fill="#94A1AE"/></marker>
+<marker id="aRed" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0 1 L9 5 L0 9 z" fill="#E0645C"/></marker>
+<marker id="aAmber" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0 1 L9 5 L0 9 z" fill="#E8B84B"/></marker>
+<marker id="aOrange" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0 1 L9 5 L0 9 z" fill="#E89B4B"/></marker>
+<marker id="aPurple" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0 1 L9 5 L0 9 z" fill="#7C84F2"/></marker>
+<marker id="aTeal" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0 1 L9 5 L0 9 z" fill="#3FB6C9"/></marker>
+</defs>
+
+<rect x="-24" y="0" width="1344" height="1010" fill="#0E141B"/>
+
+<!-- ============ EXTERNAL TOP ROW ============ -->
+<!-- Internet -->
+<rect x="48" y="32" width="300" height="72" rx="10" fill="#0E141B" stroke="#39465A" stroke-width="1.2"/>
+<rect x="64" y="48" width="40" height="40" rx="9" fill="#94A1AE" fill-opacity="0.14" stroke="#94A1AE" stroke-opacity="0.45"/>
+<g transform="translate(73,57) scale(0.92)" fill="none" stroke="#94A1AE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/></g>
+<text x="120" y="66" fill="#E3EAF2" font-size="15" font-weight="600">Internet</text>
+<text x="120" y="86" fill="#7E8C9A" font-size="11.5">public traffic · attackers · bots</text>
+
+<!-- Admin Tailscale -->
+<rect x="494" y="32" width="300" height="72" rx="10" fill="#0E141B" stroke="#39465A" stroke-width="1.2"/>
+<rect x="510" y="48" width="40" height="40" rx="9" fill="#7C84F2" fill-opacity="0.14" stroke="#7C84F2" stroke-opacity="0.45"/>
+<g transform="translate(519,57) scale(0.92)" fill="none" stroke="#7C84F2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></g>
+<text x="566" y="66" fill="#E3EAF2" font-size="15" font-weight="600">Admin</text>
+<text x="566" y="86" fill="#7E8C9A" font-size="11.5">via Tailscale · private VPN access</text>
+
+<!-- AbuseIPDB -->
+<rect x="940" y="32" width="300" height="72" rx="10" fill="#0E141B" stroke="#39465A" stroke-width="1.2"/>
+<rect x="956" y="48" width="40" height="40" rx="9" fill="#E89B4B" fill-opacity="0.14" stroke="#E89B4B" stroke-opacity="0.45"/>
+<g transform="translate(965,57) scale(0.92)" fill="none" stroke="#E89B4B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></g>
+<text x="1012" y="66" fill="#E3EAF2" font-size="15" font-weight="600">AbuseIPDB</text>
+<text x="1012" y="86" fill="#7E8C9A" font-size="11.5">threat intel · community sharing</text>
+
+<!-- ============ VPS CONTAINER ============ -->
+<rect x="48" y="150" width="1132" height="710" rx="14" fill="none" stroke="#39465A" stroke-width="1.4"/>
+<rect x="66" y="166" width="40" height="40" rx="9" fill="#5BCB8A" fill-opacity="0.12" stroke="#5BCB8A" stroke-opacity="0.4"/>
+<g transform="translate(75,175) scale(0.92)" fill="none" stroke="#5BCB8A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="8" rx="2"/><rect x="2" y="14" width="20" height="8" rx="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></g>
+<text x="120" y="182" fill="#E3EAF2" font-size="16" font-weight="700">VPS · Debian 13 · Docker · x86_64</text>
+<text x="120" y="200" fill="#7E8C9A" font-size="11.5">internet-facing · public ip · datacenter</text>
+
+<!-- Firewall bar -->
+<rect x="80" y="232" width="1068" height="48" rx="10" fill="#E8B84B" fill-opacity="0.08" stroke="#E8B84B" stroke-width="1.3"/>
+<g transform="translate(98,244) scale(0.92)" fill="none" stroke="#E8B84B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="M12 8v4"/><path d="M12 16h.01"/></g>
+<text x="132" y="261" fill="#E8B84B" font-size="13" font-weight="700" letter-spacing="0.3">Kernel firewall · UFW + nftables · CrowdSec firewall-bouncer</text>
+
+<!-- ===== Zone proxy_net ===== -->
+<rect x="80" y="320" width="1068" height="150" rx="12" fill="none" stroke="#39465A" stroke-width="1" stroke-opacity="0.55"/>
+<rect x="96" y="309" width="104" height="22" rx="5" fill="#0E141B" stroke="#39465A"/>
+<circle cx="110" cy="320" r="3" fill="#7FB2F2"/>
+<text x="122" y="324" fill="#7E8C9A" font-size="11" font-weight="600" letter-spacing="0.4">proxy_net</text>
+
+<!-- Portainer -->
+<rect x="104" y="350" width="324" height="92" rx="10" fill="#0E141B" stroke="#39465A" stroke-width="1.2"/>
+<rect x="120" y="376" width="40" height="40" rx="9" fill="#5C9FE0" fill-opacity="0.14" stroke="#5C9FE0" stroke-opacity="0.45"/>
+<g transform="translate(129,385) scale(0.92)" fill="none" stroke="#5C9FE0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"/><path d="m3.3 7 8.7 5 8.7-5"/><path d="M12 22V12"/></g>
+<text x="176" y="386" fill="#E3EAF2" font-size="14.5" font-weight="600">Portainer</text>
+<text x="176" y="406" fill="#7E8C9A" font-size="11.5">docker management</text>
+<text x="412" y="428" fill="#5C9FE0" font-size="10.5" font-family="ui-monospace,monospace" text-anchor="end">127.0.0.1:9443</text>
+
+<!-- NPM -->
+<rect x="452" y="350" width="324" height="92" rx="10" fill="#0E141B" stroke="#39465A" stroke-width="1.2"/>
+<rect x="468" y="376" width="40" height="40" rx="9" fill="#7FB2F2" fill-opacity="0.14" stroke="#7FB2F2" stroke-opacity="0.45"/>
+<g transform="translate(477,385) scale(0.92)" fill="none" stroke="#7FB2F2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="19" r="3"/><path d="M9 19h8.5a3.5 3.5 0 0 0 0-7h-11a3.5 3.5 0 0 1 0-7H15"/><circle cx="18" cy="5" r="3"/></g>
+<text x="524" y="386" fill="#E3EAF2" font-size="14.5" font-weight="600">Nginx Proxy Manager</text>
+<text x="524" y="406" fill="#7E8C9A" font-size="11.5">reverse proxy · wildcard ssl</text>
+<text x="760" y="428" fill="#7FB2F2" font-size="10.5" font-family="ui-monospace,monospace" text-anchor="end">80 / 443 · :81 private</text>
+
+<!-- CrowdSec -->
+<rect x="800" y="350" width="324" height="92" rx="10" fill="#0E141B" stroke="#39465A" stroke-width="1.2"/>
+<rect x="816" y="376" width="40" height="40" rx="9" fill="#E8B84B" fill-opacity="0.14" stroke="#E8B84B" stroke-opacity="0.45"/>
+<g transform="translate(825,385) scale(0.92)" fill="none" stroke="#E8B84B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></g>
+<text x="872" y="386" fill="#E3EAF2" font-size="14.5" font-weight="600">CrowdSec</text>
+<text x="872" y="406" fill="#7E8C9A" font-size="11.5">ips · bouncer · capi blocklists</text>
+<text x="1108" y="428" fill="#E8B84B" font-size="10.5" font-family="ui-monospace,monospace" text-anchor="end">127.0.0.1:8080</text>
+
+<!-- ===== Zone honeypot_net ===== -->
+<rect x="80" y="500" width="1068" height="150" rx="12" fill="#E0645C" fill-opacity="0.04" stroke="#E0645C" stroke-width="1" stroke-opacity="0.5"/>
+<rect x="96" y="489" width="290" height="22" rx="5" fill="#0E141B" stroke="#E0645C" stroke-opacity="0.6"/>
+<circle cx="110" cy="500" r="3" fill="#E0645C"/>
+<text x="122" y="504" fill="#E0645C" font-size="11" font-weight="600" letter-spacing="0.4">honeypot_net · internal · no internet egress</text>
+
+<!-- fake-wordpress -->
+<rect x="104" y="530" width="324" height="92" rx="10" fill="#0E141B" stroke="#39465A" stroke-width="1.2"/>
+<rect x="120" y="556" width="40" height="40" rx="9" fill="#E0645C" fill-opacity="0.14" stroke="#E0645C" stroke-opacity="0.45"/>
+<g transform="translate(129,565) scale(0.92)" fill="none" stroke="#E0645C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/></g>
+<text x="176" y="566" fill="#E3EAF2" font-size="14.5" font-weight="600">fake-wordpress</text>
+<text x="176" y="586" fill="#7E8C9A" font-size="11.5">web honeypot (decoy)</text>
+<text x="412" y="608" fill="#E0645C" font-size="10.5" font-family="ui-monospace,monospace" text-anchor="end">:80</text>
+
+<!-- fake-adminer -->
+<rect x="452" y="530" width="324" height="92" rx="10" fill="#0E141B" stroke="#39465A" stroke-width="1.2"/>
+<rect x="468" y="556" width="40" height="40" rx="9" fill="#E0645C" fill-opacity="0.14" stroke="#E0645C" stroke-opacity="0.45"/>
+<g transform="translate(477,565) scale(0.92)" fill="none" stroke="#E0645C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5V19A9 3 0 0 0 21 19V5"/><path d="M3 12A9 3 0 0 0 21 12"/></g>
+<text x="524" y="566" fill="#E3EAF2" font-size="14.5" font-weight="600">fake-adminer</text>
+<text x="524" y="586" fill="#7E8C9A" font-size="11.5">db tool honeypot (decoy)</text>
+<text x="760" y="608" fill="#E0645C" font-size="10.5" font-family="ui-monospace,monospace" text-anchor="end">:8080</text>
+
+<!-- honeypot note -->
+<text x="800" y="560" fill="#7E8C9A" font-size="11.5">Isolated from the rest</text>
+<text x="800" y="580" fill="#7E8C9A" font-size="11.5">No privileges · caps dropped</text>
+<text x="800" y="600" fill="#7E8C9A" font-size="11.5">Reachable only via NPM</text>
+
+<!-- ===== Zone monitoring ===== -->
+<rect x="80" y="680" width="1068" height="150" rx="12" fill="none" stroke="#39465A" stroke-width="1" stroke-opacity="0.55"/>
+<rect x="96" y="669" width="240" height="22" rx="5" fill="#0E141B" stroke="#39465A"/>
+<circle cx="110" cy="680" r="3" fill="#3FB6C9"/>
+<text x="122" y="684" fill="#7E8C9A" font-size="11" font-weight="600" letter-spacing="0.4">monitoring · wazuh single-node</text>
+
+<!-- Wazuh Dashboard -->
+<rect x="104" y="710" width="324" height="92" rx="10" fill="#0E141B" stroke="#39465A" stroke-width="1.2"/>
+<rect x="120" y="736" width="40" height="40" rx="9" fill="#3FB6C9" fill-opacity="0.14" stroke="#3FB6C9" stroke-opacity="0.45"/>
+<g transform="translate(129,745) scale(0.92)" fill="none" stroke="#3FB6C9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></g>
+<text x="176" y="746" fill="#E3EAF2" font-size="14.5" font-weight="600">Wazuh Dashboard</text>
+<text x="176" y="766" fill="#7E8C9A" font-size="11.5">siem interface</text>
+<text x="412" y="788" fill="#3FB6C9" font-size="10.5" font-family="ui-monospace,monospace" text-anchor="end">127.0.0.1:8443</text>
+
+<!-- Wazuh Indexer -->
+<rect x="452" y="710" width="324" height="92" rx="10" fill="#0E141B" stroke="#39465A" stroke-width="1.2"/>
+<rect x="468" y="736" width="40" height="40" rx="9" fill="#3FB6C9" fill-opacity="0.14" stroke="#3FB6C9" stroke-opacity="0.45"/>
+<g transform="translate(477,745) scale(0.92)" fill="none" stroke="#3FB6C9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5V19A9 3 0 0 0 21 19V5"/><path d="M3 12A9 3 0 0 0 21 12"/></g>
+<text x="524" y="746" fill="#E3EAF2" font-size="14.5" font-weight="600">Wazuh Indexer</text>
+<text x="524" y="766" fill="#7E8C9A" font-size="11.5">storage · search</text>
+<text x="760" y="788" fill="#3FB6C9" font-size="10.5" font-family="ui-monospace,monospace" text-anchor="end">127.0.0.1:9200</text>
+
+<!-- Wazuh Manager -->
+<rect x="800" y="710" width="324" height="92" rx="10" fill="#0E141B" stroke="#39465A" stroke-width="1.2"/>
+<rect x="816" y="736" width="40" height="40" rx="9" fill="#3FB6C9" fill-opacity="0.14" stroke="#3FB6C9" stroke-opacity="0.45"/>
+<g transform="translate(825,745) scale(0.92)" fill="none" stroke="#3FB6C9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="M12 22V12"/></g>
+<text x="872" y="742" fill="#E3EAF2" font-size="14.5" font-weight="600">Wazuh Manager</text>
+<text x="872" y="761" fill="#7E8C9A" font-size="11.5">siem · receives agents</text>
+<text x="872" y="779" fill="#7E8C9A" font-size="11">+ host agent (self-monitoring)</text>
+<text x="1108" y="795" fill="#3FB6C9" font-size="10.5" font-family="ui-monospace,monospace" text-anchor="end">:1514 / :1515</text>
+
+<!-- ============ REMOTE MACHINE ============ -->
+<rect x="800" y="908" width="324" height="72" rx="10" fill="#0E141B" stroke="#39465A" stroke-width="1.2"/>
+<rect x="816" y="924" width="40" height="40" rx="9" fill="#5BCB8A" fill-opacity="0.14" stroke="#5BCB8A" stroke-opacity="0.45"/>
+<g transform="translate(825,933) scale(0.92)" fill="none" stroke="#5BCB8A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></g>
+<text x="872" y="942" fill="#E3EAF2" font-size="14.5" font-weight="600">Remote machine (home)</text>
+<text x="872" y="962" fill="#7E8C9A" font-size="11.5">wazuh agent · arm64 · over VPN</text>
+
+<!-- ============ CONNECTIONS ============ -->
+<!-- Public: Internet -> firewall -> NPM -->
+<path d="M198 104 L198 130 L614 130 L614 232" fill="none" stroke="#E0645C" stroke-width="1.6" marker-end="url(#aRed)"/>
+<rect x="566" y="138" width="96" height="20" rx="5" fill="#0E141B"/>
+<text x="614" y="152" fill="#E0645C" font-size="11" font-weight="600" text-anchor="middle" font-family="ui-monospace,monospace">80 / 443</text>
+<path d="M614 280 L614 350" fill="none" stroke="#94A1AE" stroke-width="1.4" marker-end="url(#aGray)"/>
+
+<!-- NPM -> honeypots -->
+<path d="M614 442 L614 500" fill="none" stroke="#94A1AE" stroke-width="1.4" marker-end="url(#aGray)"/>
+<rect x="624" y="462" width="180" height="20" rx="5" fill="#0E141B"/>
+<text x="630" y="476" fill="#7E8C9A" font-size="11">reverse proxy to honeypots</text>
+
+<!-- CrowdSec -> firewall (bans) -->
+<path d="M962 350 L962 280" fill="none" stroke="#E8B84B" stroke-width="1.4" marker-end="url(#aAmber)"/>
+<rect x="972" y="300" width="118" height="20" rx="5" fill="#0E141B"/>
+<text x="978" y="314" fill="#E8B84B" font-size="11">nftables bans</text>
+
+<!-- CrowdSec -> AbuseIPDB -->
+<path d="M1124 392 L1205 392 L1205 104" fill="none" stroke="#E89B4B" stroke-width="1.4" marker-end="url(#aOrange)"/>
+<rect x="1120" y="200" width="160" height="20" rx="5" fill="#0E141B"/>
+<text x="1128" y="214" fill="#E89B4B" font-size="11">community push (reports)</text>
+
+<!-- Admin Tailscale -> Portainer + Wazuh dashboard -->
+<path d="M644 104 L644 120 L30 120 L30 756" fill="none" stroke="#7C84F2" stroke-width="1.4" stroke-dasharray="6 5"/>
+<path d="M30 396 L102 396" fill="none" stroke="#7C84F2" stroke-width="1.4" stroke-dasharray="6 5" marker-end="url(#aPurple)"/>
+<path d="M30 756 L102 756" fill="none" stroke="#7C84F2" stroke-width="1.4" stroke-dasharray="6 5" marker-end="url(#aPurple)"/>
+<circle cx="30" cy="396" r="2.5" fill="#7C84F2"/>
+<rect x="148" y="208" width="222" height="18" rx="5" fill="#0E141B"/>
+<text x="156" y="221" fill="#7C84F2" font-size="11">Tailscale Serve · private admin</text>
+
+<!-- Remote machine -> manager -->
+<path d="M962 908 L962 802" fill="none" stroke="#3FB6C9" stroke-width="1.4" marker-end="url(#aTeal)"/>
+<rect x="972" y="846" width="150" height="20" rx="5" fill="#0E141B"/>
+<text x="978" y="860" fill="#3FB6C9" font-size="11" font-family="ui-monospace,monospace">agent :1514 (VPN)</text>
+
+<!-- ============ LEGEND ============ -->
+<rect x="48" y="905" width="430" height="80" rx="10" fill="#0E141B" stroke="#39465A" stroke-width="1"/>
+<text x="64" y="928" fill="#7E8C9A" font-size="11" font-weight="700" letter-spacing="0.5">LEGEND</text>
+<line x1="64" y1="946" x2="92" y2="946" stroke="#E0645C" stroke-width="1.6"/>
+<text x="100" y="950" fill="#7E8C9A" font-size="11">public traffic</text>
+<line x1="210" y1="946" x2="238" y2="946" stroke="#7C84F2" stroke-width="1.6" stroke-dasharray="6 5"/>
+<text x="246" y="950" fill="#7E8C9A" font-size="11">private admin (VPN)</text>
+<line x1="64" y1="968" x2="92" y2="968" stroke="#E8B84B" stroke-width="1.6"/>
+<text x="100" y="972" fill="#7E8C9A" font-size="11">firewall bans</text>
+<line x1="210" y1="968" x2="238" y2="968" stroke="#E89B4B" stroke-width="1.6"/>
+<text x="246" y="972" fill="#7E8C9A" font-size="11">push AbuseIPDB</text>
+<line x1="370" y1="946" x2="398" y2="946" stroke="#3FB6C9" stroke-width="1.6"/>
+<text x="406" y="950" fill="#7E8C9A" font-size="11">agents</text>
+<line x1="370" y1="968" x2="398" y2="968" stroke="#94A1AE" stroke-width="1.6"/>
+<text x="406" y="972" fill="#7E8C9A" font-size="11">internal</text>
+</svg>
