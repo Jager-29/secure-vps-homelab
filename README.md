@@ -149,7 +149,3 @@ The honest list, because it is more useful than a clean walkthrough. See
   install
 - The SIEM container reporting a CIS policy for the wrong distribution
 
-## License
-
-Choose a license before publishing. GPL-3.0 or MIT are common for this kind of
-reference repository.
