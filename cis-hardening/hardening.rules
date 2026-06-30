@@ -1,0 +1,14 @@
+-a always,exit -F arch=b64 -S execve -C uid!=euid -F euid=0 -k privilege_escalation
+-a always,exit -F arch=b32 -S execve -C uid!=euid -F euid=0 -k privilege_escalation
+-w /etc/sudoers -p wa -k scope
+-w /etc/sudoers.d/ -p wa -k scope
+-w /etc/ssh/sshd_config -p wa -k sshd_config
+-w /etc/ssh/sshd_config.d/ -p wa -k sshd_config
+-w /usr/sbin/sshd -p x -k sshd_binary
+-w /etc/docker/daemon.json -p wa -k docker_config
+-w /lib/systemd/system/docker.service -p wa -k docker_config
+-w /usr/bin/docker -p x -k docker_exec
+-w /home/YOUR_USER/wazuh-docker/single-node/docker-compose.yml -p wa -k wazuh_config
+-w /home/YOUR_USER/wazuh-docker/single-node/config -p wa -k wazuh_config
+-w /etc/crontab -p wa -k cron
+-w /etc/cron.d/ -p wa -k cron
